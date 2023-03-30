@@ -1,0 +1,16 @@
+[package]
+name = "entities"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+kube = { workspace = true }
+k8s-openapi = { workspace = true }
+schemars = { workspace = true }
+futures = { workspace = true }
+thiserror = { workspace = true }
+serde_yaml = { workspace = true }
+serde_json = { workspace = true }
+serde = { workspace = true }

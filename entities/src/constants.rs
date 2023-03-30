@@ -1,0 +1,1 @@
+pub const CRD_NAME: &str = "symphony.neurono.ml";
